@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+<!-- Row 1 -->
+     <!-- Nav Row --> 
+      <div class="row w-100">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yesica Menjivar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <img src="me.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <a class="nav-link" href="#">My Account</a>
+                <a class="nav-link" href="#">Settings</a>
+                <a class="nav-link" href="#">Assistency</a>
+                
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+<!-- Row 2 -->
+        <div class="row w-100">
+<!-- Row 3 inside row 2 -->
+
+          <div class="row w-100">
+            <div class="col-sm-12 col-md-5 col-lg-2">
+              <p>Messages</p>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-4">
+              <p>Inbox</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <p>Message Content</p>
+            </div>
+              
+          </div>
+ 
+          
+       
+          
+   <!-- Column One -->
+
+   
+            <div class="col-sm-12 col-md-2 col-lg-1 first-col">
+   
+            
+         <!-- Button-->
+
+              <button type="button" class="btn btn-primary">Redact</button>
+                <!-- List -->
+              <ul class="list-group1">
+                <li class="list-group-item">Received</li>
+                <li class="list-group-item">Sent</li>
+                <li class="list-group-item">Draft</li>
+                <li class="list-group-item">Marked</li>
+                <li class="list-group-item">Deleted</li>
+                <li class="list-group-item">Spam </li>
+              </ul>
+            </div>
+
+
+
+            
+   
+  <!-- Column Two -->
+            <div class="col-sm-12 col-md-10 col-lg-4 second-col">
+   <!-- Nav Bar Search -->
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for a contact here" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              
+              <!-- List -->
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Chong Lee
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Francisco Smith</a>
+                <a href="#" class="list-group-item list-group-item-action">Carlos Mark</a>
+                <a href="#" class="list-group-item list-group-item-action">Esmeralda Solares</a>
+                <a class="list-group-item list-group-item-action disabled">Anita Merlot</a>
+              </div>
+
+  <!-- Pagination -->
+               <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+           
+
+            
+  <!-- Column Three -->
+
+            <div class="col-sm-12 col-md-12 col-lg-7 third-col">
+<!-- Nav Bar Search -->
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for a message here" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+<!-- Text for message -->
+              <h2>
+                Chong Lee
+              </h2>
+
+              <p>
+                What is Bootstrap?
+Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+              </p>
+
+<!-- Reply-Resend Button -->
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary">Reply</button>
+                <button type="button" class="btn btn-outline-primary">Resend</button>
+              </div>
+
+  <!--  TextArea -->
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Replying...</label>
+  </div>
+
+
+
+ <!--  Reply -->
+ <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="btnradio1">Send</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btnradio2">Star Over</label>
+
+</div>
+
+            </div>
+ 
+
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
